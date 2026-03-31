@@ -18,7 +18,7 @@ app.use(
   cors({
     origin: [
       "https://link-app-delta.vercel.app",   
-      "http://localhost:3000",               
+      "http://localhost:5000",               
       "http://localhost:5173"                
     ],
     credentials: true,

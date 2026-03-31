@@ -6,10 +6,11 @@ const User = require("../Models/user");
 const router = express.Router();
 
 const JWT_SECRET = process.env.JWT_SECRET;
+
 const COOKIE_OPTIONS = {
   httpOnly: true,
-  secure: process.env.NODE_ENV === "production",
-  sameSite: "lax",
+  secure: true,       
+  sameSite: "none",   
   maxAge: 7 * 24 * 60 * 60 * 1000,
 };
 
