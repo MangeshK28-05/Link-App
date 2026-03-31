@@ -21,6 +21,7 @@ app.use(
   }),
 );
 app.use(cookieParser());
+app.use(cors())
 
 app.use(helmet());
 app.use(express.json({ limit: "10kb" }));
