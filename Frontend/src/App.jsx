@@ -4,7 +4,7 @@ import LinkCard from "./components/LinkCard";
 import PassWordCard from "./components/PassWordCard";
 import AddLinkForm from "./components/AddLinkForm";
 import Login from "./components/Login";
-import Signup from "./components/signup";
+import Signup from "./components/Signup";
 import { BrushCleaning , Sun , Moon ,  CircleX  } from "lucide-react";
 import { Toaster } from 'sonner';
 const API_URL = import.meta.env.VITE_API_URL
