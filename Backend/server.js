@@ -16,7 +16,7 @@ const MONGODB_URI = process.env.MONGODB_URI;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "link-app-delta.vercel.app",
     credentials: true,
   }),
 );
